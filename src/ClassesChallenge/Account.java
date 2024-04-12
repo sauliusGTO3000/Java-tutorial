@@ -20,7 +20,7 @@ public class Account {
     }
 
     public void withdrawFundsFromAccount(double funds) {
-        if (his.accountBalance - funds < 0) {
+        if (this.accountBalance - funds < 0) {
             System.out.println("insufficient funds");
             return;
         }
